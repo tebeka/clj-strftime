@@ -10,6 +10,7 @@
 
 (defmethod strftime Date
   [fmt t]
+  ; Convert strftime to String.format format (e.g. %m -> %1$tm)
   (let [fmt (.replaceAll fmt "%([a-zA-Z])" "%1\\$t$1")]
     (format fmt t)))
 
