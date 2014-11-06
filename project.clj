@@ -1,4 +1,4 @@
-(defproject strftime "0.1.0-SNAPSHOT"
+(defproject strftime "0.1.1-SNAPSHOT"
   :description "strftime implementation (see http://bit.ly/strftime-py"
   :url "https://bitbucket.org/tebeka/clj-strftime"
   :license {:name "Eclipse Public License"
